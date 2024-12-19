@@ -13,3 +13,5 @@ background-color
 the background image should scroll or be fixed (will not scroll with the rest of the page):
 
 background (shorthand property)
+ex.
+background: #fff url("image.jpg") no-repeat fixed;
