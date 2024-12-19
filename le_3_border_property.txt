@@ -1,0 +1,27 @@
+1.border-style ex. border-style:dotted;
+The border-style property specifies what kind of border to display.
+The following values are allowed:
+
+dotted - Defines a dotted border
+dashed - Defines a dashed border
+solid - Defines a solid border
+double - Defines a double border
+groove - Defines a 3D grooved border. The effect depends on the border-color value
+ridge - Defines a 3D ridged border. The effect depends on the border-color value
+inset - Defines a 3D inset border. The effect depends on the border-color value
+outset - Defines a 3D outset border. The effect depends on the border-color value
+none - Defines no border
+hidden - Defines a hidden border
+
+2. border-width ex.border-width: 5px;
+The border-width property specifies the width of the four borders.
+The width can be set as a specific size (in px, pt, cm, em, etc) or by using one of the three pre-defined values: thin, medium, or thick:
+
+3. border-color ex. border-color: blue;
+The border-color property is used to set the color of the four borders.
+
+4. border-style ex. border-top-style: dotted;  ex. border-style: dotted solid double dashed;
+there are also properties for specifying each of the borders (top, right, bottom, and left):
+
+5. border-radius ex. border-radius: 5px;
+The border-radius property is used to add rounded borders to an element:

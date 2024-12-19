@@ -1,0 +1,28 @@
+h1{
+    color:rgb(69, 5, 51) !important;
+    background-color: yellow !important;
+}
+span{
+    color: royalblue;
+}
+h2{
+    color: olivedrab;
+}
+
+p{
+    color: red;
+    background-color: yellow;
+}
+.para{
+    font-size: 35px;
+}
+
+#hh1{
+    color:red;
+    background-color: green;
+}
+
+.cc1{
+    color:purple;
+    background-color: goldenrod;
+}

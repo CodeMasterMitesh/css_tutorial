@@ -1,0 +1,15 @@
+background-color
+1.background-image  ex. background-image: url("paper.gif");
+-> The background-image property specifies an image to use as the background of an element.
+
+2.background-repeat ex.  background-repeat: repeat-x;
+->the background-image property repeats an image both horizontally and vertically.
+
+3.background-position ex. background-position: right top;
+->The background-position property is used to specify the position of the background image.
+
+4.background-attachment ex. background-attachment: fixed;
+->The background-attachment property specifies whether 
+the background image should scroll or be fixed (will not scroll with the rest of the page):
+
+background (shorthand property)

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Properties IN CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            /* background-color: lightcoral; */
+            /* background-image:url("paper.gif"); */
+            /* background-repeat: repeat; */
+            /* background-repeat: repeat-x; */
+            /* background-repeat: repeat-y; */
+            /* background-repeat: no-repeat; */
+            /* background-position: right top; */
+            /* background-position: left top; */
+            /* background-position: left bottom; */
+            /* background-position: right bottom; */
+            /* background-position: center;
+            background-attachment: fixed; */
+            /* background-attachment: scroll; */
+
+            background: url("images/river_house.jpeg") no-repeat center fixed;
+            background-size: 100% 100%;
+            color:rgb(12, 46, 238);
+        }
+        h1{
+            background: url("paper.gif") repeat center fixed;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Hello</h1>
+    </div>
+    <!-- background-color
+    background-image
+    background-repeat
+    background-position
+    background-attachment -->
+
+    <h1>Patel Web Solution</h1>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid totam reprehenderit libero debitis rerum a commodi placeat molestias dolor eius voluptatum sapiente minima, officia quaerat modi aspernatur aut voluptas ex.</p> -->
+
+</body>
+</html>
