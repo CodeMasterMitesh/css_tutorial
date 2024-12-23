@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEXT Properties IN CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        .container{
+            width: 600px;
+            height: 400px;
+            background-color: rgb(223, 230, 234);
+            border: 5px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1{
+            margin: 10px;
+            color: green;
+            /* text align property for horizontal alignment of text */
+            /* left 
+            right
+            center 
+            justify  */
+            text-align: center;
+            /* change direction of text right to left and left to right */
+            /* direction: rtl;
+            unicode-bidi: bidi-override; */
+
+            /* text decoration property */
+
+            /* text-decoration-line:  underline overline; */
+            /* text-decoration-style: dashed;
+            text-decoration-color: brown;
+            text-decoration-thickness: 5px; */
+            text-decoration:underline overline solid brown 5px;
+            /* text-decoration: none; */
+        }
+        .para1{
+            border: 2px solid black;
+            color: rgb(76, 129, 82);
+            text-align : justify;
+            padding: 5px;
+            margin: 5px;
+            text-indent: 150px;
+            letter-spacing: 2px;
+            background-color: lightblue;
+            /* line height prooerty for line height of every line of text */
+            line-height: 30px;
+
+            /* text shadow property  */
+            /* horizonal offset, vertical offset, blur radius, color */
+            text-shadow: 3px 4px 3px red;
+        }
+        .para2{
+            border: 2px solid blueviolet;
+            color: #213555;
+            text-align : justify;
+            padding: 5px;
+            margin: 5px;
+            background-color: yellow;
+            color:red;
+            /* text-align-last property for last line of text */
+            /* center 
+            left 
+            right
+            justify  */
+            text-align-last: left;
+            /* text-transform property for text transformation */
+            /* uppercase 
+            lowercase
+            capitalize */
+            text-transform: capitalize;
+            word-spacing: 15px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Patel Web Solution</h1>
+        <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eligendi sed ea fugiat iste perspiciatis inventore quam. Eveniet, accusantium tenetur ipsum praesentium, debitis necessitatibus repellat doloribus, quia optio molestias autem!</p>
+        <p class="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eligendi sed ea fugiat iste perspiciatis inventore quam. Eveniet, accusantium tenetur ipsum praesentium, debitis necessitatibus repellat doloribus, quia optio molestias autem!</p>
+    </div>
+    <a href="https://codemastermitesh.com">My Website</a>
+    
+</body>
+</html>

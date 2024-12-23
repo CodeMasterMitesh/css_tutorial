@@ -1,0 +1,52 @@
+1) text-align ->
+Text Alignment
+The text-align property is used to set the horizontal alignment of a text.
+A text can be left or right aligned, centered, or justified.
+
+
+2)text-align-last ->
+Text Align Last
+The text-align-last property specifies how to align the last line of a text.
+
+
+3) direction -> 
+The direction and unicode-bidi properties can be used to change the text direction of an element:
+unicode-bidi
+
+4) Text decoration property
+4.1) text-decoration-line ->
+The text-decoration-line property is used to add a decoration line to text.
+
+4.2) text-decoration-color
+The text-decoration-color property is used to set the color of the decoration line.
+
+4.3) text-decoration-style
+The text-decoration-style property is used to set the style of the decoration line.
+
+4.4) text-decoration-thickness
+The text-decoration-thickness property is used to set the thickness of the decoration line.
+
+5) Text Transformation
+The text-transform property is used to specify uppercase and lowercase letters in a text.
+It can be used to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word:
+
+6) Text Indentation
+The text-indent property is used to specify the indentation of the first line of a text:
+
+7) Letter Spacing
+The letter-spacing property is used to specify the space between the characters in a text.
+
+8) Line Height
+The line-height property is used to specify the space between lines:
+
+9) Word Spacing
+The word-spacing property is used to specify the space between the words in a text.
+
+10) Text Shadow
+The text-shadow property adds shadow to text.
+In its simplest use, you only specify the horizontal shadow (2px) and the vertical shadow (2px):
+ex. h1{
+     text-shadow: 2px 2px 5px red;
+ } 
+    
+
