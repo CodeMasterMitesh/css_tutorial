@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    /* font-family: Verdana, sans-serif; */
+    /* font-weight: 900; */
+}
+.container{
+    width:80%;
+    background-color: #f1f1f1;
+    margin: auto;
+    padding: 20px;
+}
+h1{
+    font-family:Georgia, serif;
+}
+.p3{
+    font-family: Verdana, sans-serif;
+}
+.h2{
+    font-family: "Agu Display", serif;
+}
+.p1{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 35px;
+    color: green;
+    font-weight: bold;
+}
+.p2{
+    font-family: "Arvo", serif;
+    /* font-style: italic; */
+    color: blue;
+    font-weight: bold;
+    /* font-variant: normal; */
+}

@@ -1,0 +1,110 @@
+1)CSS Fonts
+Font Selection is Important
+Choosing the right font has a huge impact on how the readers experience a website.
+The right font can create a strong identity for your brand.
+Using a font that is easy to read is important. The font adds value to your text. It is also important to choose the correct color and text size for the font.
+
+Generic Font Families
+1)Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.
+2)Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.
+3)Monospace fonts - here all the letters have the same fixed width. They create a mechanical look. 
+4)Cursive fonts imitate human handwriting.
+5)Fantasy fonts are decorative/playful fonts.
+
+serif font :- ex. Times New Roman
+sans serif ex. Arial 
+Monospace ex. Courier New
+Cursive ex. Brush Script MT
+Fantasy ex. Papyrus 
+
+
+In CSS, we use the font-family property to specify the font of a text.
+The font-family property should hold several font names as a "fallback" system, to ensure maximum compatibility between browsers/operating systems. 
+Start with the font you want, and end with a generic family (to let the browser pick a similar font in the generic family, if no other fonts are available). 
+The font names should be separated with a comma. 
+
+What are Web Safe Fonts?
+Web safe fonts are fonts that are universally installed across all browsers and devices.
+
+
+Fallback Fonts
+However, there are no 100% completely web safe fonts. There is always a chance that a font is not found or is not installed properly.
+Therefore, it is very important to always use fallback fonts.
+This means that you should add a list of similar "backup fonts" in the font-family property. If the first font does not work, the browser will try the next one, and the next one, and so on. Always end the list with a generic font family name.
+
+
+
+Best Web Safe Fonts for HTML and CSS
+The following list are the best web safe fonts for HTML and CSS:
+
+Arial (sans-serif)
+Verdana (sans-serif)
+Tahoma (sans-serif)
+Trebuchet MS (sans-serif)
+Times New Roman (serif)
+Georgia (serif)
+Garamond (serif)
+Courier New (monospace)
+Brush Script MT (cursive)
+
+
+2) Font Style
+The font-style property is mostly used to specify italic text.
+This property has three values:
+normal - The text is shown normally
+italic - The text is shown in italics
+oblique - The text is "leaning" (oblique is very similar to italic, but less supported)
+
+3) Font Weight
+The font-weight property specifies the weight of a font.
+
+4) Font Variant
+The font-variant property specifies whether or not a text should be displayed in a small-caps font.
+
+5) Font Size
+The font-size property sets the size of the text
+
+Font Pairing Rules
+Here are some basic rules to create great font pairings:
+
+1. Complement
+It is always safe to find font pairings that complement one another.
+
+A great font combination should harmonize, without being too similar or too different.
+
+2. Use Font Superfamilies
+A font superfamily is a set of fonts designed to work well together. So, using different fonts within the same superfamily is safe.
+
+For example, the Lucida superfamily contains the following fonts: Lucida Sans, Lucida Serif, Lucida Typewriter Sans, Lucida Typewriter Serif and Lucida Math.
+
+3. Contrast is King
+Two fonts that are too similar will often conflict. However, contrasts, done the right way, brings out the best in each font.
+
+Example: Combining serif with sans serif is a well known combination.
+
+A strong superfamily includes both serif and sans serif variations of the same font (e.g. Lucida and Lucida Sans).
+
+4. Choose Only One Boss
+One font should be the boss. This establishes a hierarchy for the fonts on your page. This can be achieved by varying the size, weight and color.
+
+examples.
+1) font-family: Verdana, sans-serif;  for in body for text and for heading font-family: Georgia, serif; 
+2) font-family: Garamond, serif;  for in body for text and for heading font-family: Helvetica, sans-serif;
+3) font-family: "Open Sans", sans-serif;  for in body for text and for heading font-family: Merriweather, serif;
+4) font-family: Lora, serif;  for in body for text and for heading font-family: Ubuntu, sans-serif;
+5) font-family: Rubik, sans-serif;  for in body for text and for heading font-family: Spectral, serif;
+
+
+
+
+The font property is a shorthand property for:
+
+font-style
+font-variant
+font-weight
+font-size/line-height   
+font-family
+
+
+ex. font: italic small-caps bold 12px/30px Georgia, serif;
+
