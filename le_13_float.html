@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow css property</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        div{
+            border: 2px solid black;
+            padding: 10px;
+            clear: both;
+        }
+        .div1{
+            background-color: yellow;
+            padding: 5px;
+            /* float: left; */
+            border: 2px solid black;
+            float: right;
+            clear: both;
+        }
+        .div2{
+            background-color: rgb(202, 14, 58);
+            color: white;
+            padding: 5px;
+            /* float: left; */
+            border: 2px solid black;
+            float: right;
+            clear: both;
+        }
+        .div3{
+            background-color: rgb(7, 96, 17);
+            color: white;
+            padding: 5px;
+            /* float: left; */
+            border: 2px solid black;
+            float: right;
+            clear: both;
+        }
+        .img1{
+            height: 200px;
+            width: 200px;
+            float: left;
+            
+        }
+        .clearfix::after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="div1">
+        div1
+    </div>
+    <div class="div2">
+        div2
+    </div>
+    <div class="div3">
+        div3
+    </div>
+
+    <div class="clearfix">
+        <img class="img1" src="images/river_house.jpeg" alt="">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quibusdam, commodi soluta laudantium reiciendis aliquam aperiam nesciunt minima hic possimus facere unde et ad nostrum aspernatur nisi rem, sint rerum.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, quibusdam, commodi soluta laudantium reiciendis aliquam aperiam nesciunt minima hic possimus facere unde et ad nostrum aspernatur nisi rem, sint rerum.
+
+    </div>
+
+</body>
+</html>
