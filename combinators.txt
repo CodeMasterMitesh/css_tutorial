@@ -1,0 +1,14 @@
+Descendant combinator (space)
+The descendant combinator matches all elements that are descendants of a specified element.
+
+Child combinator (>)
+The child combinator selects all elements that are the children of a specified element.
+
+
+Next sibling combinator (+)
+The next sibling combinator is used to select an element that is directly after another specific element.
+Sibling elements must have the same parent element, and "adjacent" means "immediately following".
+
+Subsequent-sibling combinator (~)
+
+The subsequent-sibling combinator selects all elements that are next siblings of a specified element.

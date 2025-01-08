@@ -82,11 +82,21 @@ main{
     padding: 10px;
     min-height: 100vh;
 }
-main .main_header{
+.main_header{
     text-align: center;
     font-size: 50px;
     color: black;
     margin-bottom: 30px;
+    background-color: yellow;
+}
+main .aboutus .main_header{
+    background-color: red;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main .aboutus ~ .gallery{
+    margin-bottom: 10px;
+    /* border: 2px solid black; */
 }
 /* gallery area start  */
 .gallery{
@@ -96,12 +106,12 @@ main .main_header{
     text-align: center;
 }
 
-.gallery .g1{
-    margin: 10px;
-    width: 300px;
+.gallery > .g1{
+    margin: 30px;
+    width: 250px;
     display: inline-block;
 }
-.gallery .g1 img{
+.gallery > .g1 > img{
     width: 300px;
     height: 250px;
     vertical-align: middle;
