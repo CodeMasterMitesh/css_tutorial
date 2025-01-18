@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        body{
+            background-color: lightgreen;
+        }
+        .main{
+            background-color: white;
+            width: 500px;
+            height: 400px;
+            margin: auto;
+            position: relative;
+            top: 85px;
+        }
+        .loginform{
+            position: relative;
+            top:60px;
+            width: 80%;
+            margin: auto;
+            padding: 10px;
+        }
+        .loginform form{
+            width: 100%;
+            position: relative;
+            line-height: 75px;
+        }
+        .loginform form .input{
+            width: 100%;
+        }
+        input[type="text"],input[type="password"]{
+            width: 100%;
+            padding: 20px;
+            border: none;
+            background-color: #efe7e7;
+            outline: none;
+            /* border-bottom: 2px solid black; */
+        }
+        /* input[type="text"]:hover{
+            border-bottom: 2px solid black;
+            background-color:white;
+        } */
+        
+        .btn{
+            width: 100%;
+        }
+        .btn input{
+            width: 100%;
+            padding: 20px;
+            background-color: #4c934c;
+            color: white;
+            border: none;
+        }
+        .create-account{
+            position: relative;
+            width: 80%;
+            margin: auto;
+            padding: 10px;
+            top: 55px;
+            text-align: center;
+        }
+        .create-account span{
+            color: rgb(212, 206, 206);
+        }
+        .create-account a{
+            color: rgb(88, 168, 77);
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="loginform">
+            <form action="">
+                <div class="input">
+                    <input type="text" name="username" value="" placeholder="username">
+                </div>
+                <div class="input">
+                    <input type="password" name="password" value="" placeholder="password">
+                </div>
+                <div class="btn">
+                    <input type="submit" value="LOGIN">
+                </div>
+            </form>
+        </div>
+        <div class="create-account">
+            <span>Not Registered?</span><a href="register.html">Create an Account</a>
+        </div>
+    </div>
+
+</body>
+</html>
