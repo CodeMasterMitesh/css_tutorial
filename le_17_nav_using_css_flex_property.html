@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FLEXBOX PROPERTY</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+    .navigation{
+        width: 100%;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: lightcoral;
+        /* border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px; */
+        border-radius: 0px 0px 20px 20px;
+    }
+    .menu{
+        width: 30%;
+    }
+    .menu ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu ul li{
+        margin: 10px;
+    }
+    .menu ul li a{
+        font-size: 22px;
+        color: #000000;
+    }
+    
+</style>
+<body>
+    <div class="navigation">
+       <div class="logo">
+            <h1>Logo</h1>
+       </div>
+       <div class="menu">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Service</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+       </div>
+    </div>
+</body>
+</html>

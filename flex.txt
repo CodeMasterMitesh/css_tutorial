@@ -1,0 +1,47 @@
+1) flex-direction  ->  The flex-direction property specifies 
+the display-direction of flex items in the flex container.
+row
+column
+row-reverse
+column-reverse
+
+2) flex-wrap -> The flex-wrap property specifies 
+whether the flex items should wrap or not, if there is not enough 
+room for them on one flex line.
+
+nowrap
+wrap
+wrap-reverse
+
+3) flex-flow  -> The flex-flow property is a shorthand property for 
+setting both the flex-direction and flex-wrap properties.
+
+4) justify-content -> The justify-content property is used to align 
+the flex items when they do not use all available space on the main-axis (horizontally).
+
+center
+flex-start
+flex-end
+space-around
+space-between
+space-evenly
+
+5) align-items -> The align-items property is used to align 
+the flex items when they do not use all available space on the cross-axis (vertically).
+
+center
+flex-start
+flex-end
+normal
+
+6) align-content -> The align-content property is used to align the flex lines
+The align-content property is similar to align-items, but instead of aligning flex items, 
+it aligns the flex lines.
+
+center
+stretch
+flex-start
+flex-end
+space-around
+space-between
+space-evenly
