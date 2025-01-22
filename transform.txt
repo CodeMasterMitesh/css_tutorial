@@ -1,0 +1,38 @@
+CSS 2D Transforms Functions:- 
+
+CSS transforms allow you to move, rotate, scale, and skew elements.
+
+1)translate()
+->The translate() function moves an element from its current position 
+(according to the parameters given for the X-axis and the Y-axis).
+
+2)rotate()
+->The rotate() function rotates an element clockwise or counter-clockwise according to a given degree.
+
+3)scale()
+->The scale() function increases or decreases the size of an element 
+(according to the parameters given for the width and height).
+
+
+3.1)scaleX()
+->The scaleX() function increases or decreases the width of an element.
+
+3.2)scaleY()
+->The scaleY() function increases or decreases the height of an element.
+
+6)skew()
+->The skew() function skews an element along the X and Y-axis by the given angles.
+
+7)skewX()
+->The skewX() function skews an element along the X-axis by the given angle.
+
+8)skewY()
+->The skewY() function skews an element along the Y-axis by the given angle.
+
+CSS 3D Transforms Functions
+rotateX()
+->The rotateX() function rotates an element around its X-axis at a given degree
+rotateY()
+->The rotateY() function rotates an element around its Y-axis at a given degree
+rotateZ()
+->The rotateZ() function rotates an element around its Z-axis at a given degree
