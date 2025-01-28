@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation PROPERTY IN CSS</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        background-image: url("images/city1.jpg");
+        background-position:cover;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .car{
+        position: absolute;
+        top: 78%;
+        left: 07%;
+        transform: translate(-50%, -50%);
+        width: 200px;
+        animation: car 2s infinite linear;
+    }
+    .car img{
+        width: 100%;
+    }
+    .cloud{
+        position: absolute;
+        top: 15%;
+        left: 15%;
+        transform: translate(-50%, -50%);
+        width: 200px;
+        animation: cloud 10s infinite linear alternate-reverse;
+    }
+    .cloud img{
+        width: 100%;
+    }
+    @keyframes car{
+        0%{
+            left: 0%;
+        }
+        
+        100%{
+            left: 100%;
+        }
+    }
+
+    @keyframes cloud{
+        0%{
+            left: 7%;
+        }
+        
+        100%{
+            left: 100%;
+        }
+    }
+</style>
+<body>
+    <div class="cloud">
+        <img src="images/cloud.png" alt="">
+    </div>
+
+    <div class="car">
+        <img src="images/car.png" alt="">
+    </div>
+   
+
+</body>
+</html>
