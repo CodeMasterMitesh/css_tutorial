@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRADIENT PROPERTY IN CSS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 12px;
+            /* background-image: linear-gradient(90deg,red 10%, yellow 45% ,green); */
+            /* background-image: radial-gradient(circle,rgb(255, 225, 0) 10%, yellow 20%,rgb(111, 166, 183) 30%); */
+            /* background-color: rgb(201, 240, 253); */
+        }
+        .box{
+            /* border: 2px solid black; */
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            /* background-image: linear-gradient(90deg,red 10%, yellow 45% ,green); */
+            /* background-image: repeating-linear-gradient(to right,red 10%, yellow 20% ,green 30%); */
+            /* background-image: radial-gradient(red, yellow ,rgb(111, 166, 183)); */
+            /* background-image: radial-gradient(circle,rgb(255, 225, 0) 30%, rgb(255, 17, 8) ); */
+            /* background-image: repeating-radial-gradient(red, yellow 10%, green 15%); */
+            animation-name: hipnotize;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            /* animation-direction: alternate; */
+            background-image: conic-gradient(red 0,red 45deg, yellow 45deg,yellow 90deg, green 90deg,green 135deg, blue 135deg,blue 180deg, rgb(0, 247, 255) 180deg,rgb(0, 247, 255) 225deg,orange 225deg,orange 270deg,purple 270deg,purple 315deg,tomato 315deg,tomato 360deg);
+        }
+        @keyframes hipnotize {
+            from{
+                /* width: 300px;
+                height: 300px; */
+                transform: rotateZ(0deg);
+                /* background-image: repeating-radial-gradient(rgb(77, 69, 69), rgb(92, 233, 60) 10%, rgb(19, 32, 212) 15%); */
+            }
+            to{
+                /* width: 500px;
+                height: 500px; */
+                transform: rotateZ(360deg);
+                /* background-image: repeating-radial-gradient(red, yellow 10%, green 15%); */
+            }
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <!-- <h1>GRADIENT PROPERTY IN CSS</h1> -->
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+CSS allows animation of HTML elements without using JavaScript!
+What are CSS Animations?
+An animation lets an element gradually change from one style to another.
+You can change as many CSS properties you want, as many times as you want.
+To use CSS animation, you must first specify some keyframes for the animation.
+Keyframes hold what styles the element will have at certain times.
+
+
+@keyframes
+ex. @keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+animation-name
+ex.animation-name: example;
+
+animation-duration
+animation-duration: 4s;
+
+animation-delay
+ex.animation-delay: 2s;
+
+animation-iteration-count
+ex.animation-iteration-count: 3;
+
+animation-direction
+The animation-direction property specifies whether an animation should be played forwards, backwards or in alternate cycles.
+
+The animation-direction property can have the following values:
+
+normal - The animation is played as normal (forwards). This is default
+reverse - The animation is played in reverse direction (backwards)
+alternate - The animation is played forwards first, then backwards
+alternate-reverse - The animation is played backwards first, then forwards
+
+animation-timing-function
+ease - Specifies an animation with a slow start, then fast, then end slowly (this is default)
+linear - Specifies an animation with the same speed from start to end
+ease-in - Specifies an animation with a slow start
+ease-out - Specifies an animation with a slow end
+ease-in-out - Specifies an animation with a slow start and end
+
+shorthand example 
+animation
+ex. animation: example 5s linear 2s infinite alternate;

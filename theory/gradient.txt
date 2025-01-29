@@ -1,0 +1,53 @@
+CSS gradients let you display smooth transitions between two or more specified colors.
+CSS defines three types of gradients:
+
+1)Linear Gradients (goes down/up/left/right/diagonally)
+2)Radial Gradients (defined by their center)
+3)Conic Gradients (rotated around a center point)
+
+
+1->
+CSS Linear Gradients
+To create a linear gradient you must define at least two color stops. 
+Color stops are the colors you want to render smooth transitions among. 
+You can also set a starting point and a direction (or an angle) along with the gradient effect.
+
+ex.background-image: linear-gradient(to right, red , yellow);
+
+Using Angles
+ex.background-image: linear-gradient(180deg, red, yellow);
+Using Multiple Color Stops
+background-image: linear-gradient(red, yellow, green);
+
+
+Repeating a linear-gradient
+ex.-> background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+
+
+
+2->
+CSS Radial Gradients
+A radial gradient is defined by its center.
+To create a radial gradient you must also define at least two color stops.
+
+ex.background-image: radial-gradient(shape size at position, start-color, ..., last-color);
+
+background-image: radial-gradient(circle, red, yellow, green);
+
+background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+
+
+
+3->
+CSS Conic Gradients
+A conic gradient is a gradient with color transitions rotated around a center point.
+To create a conic gradient you must define at least two colors.
+ex. background-image: conic-gradient([from angle] [at position,] color [degree], color [degree], ...);
+background-image: conic-gradient(red, yellow, green);background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+
+background-image: repeating-conic-gradient(red 10%, yellow 20%);
+
+
+background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+
+background-image: repeating-conic-gradient(red 10%, yellow 20%);
