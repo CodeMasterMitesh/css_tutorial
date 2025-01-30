@@ -1,0 +1,254 @@
+*{
+    /* margin: 0; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #FEF9E1;
+}
+
+/* index page start  */
+/* header start  */
+header{
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    background-color:#320909;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2{
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-slack{
+    padding: 5px;
+    font-size: 25px;
+    color:#ffffff;
+}
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+li{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+    transition: all 1s ease;
+}
+li:hover{
+    background-color: #ffb404;
+    border-radius: 15px;
+}
+nav ul li a{
+    color: black;
+    font-size: 15px;
+}
+nav ul li a i{
+    margin: 2px;
+}
+
+/* header ends */
+/* main start  */
+.container{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+.title{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    background-color: #320909;
+    border-radius: 10px;
+    padding: 5px;
+}
+.title h1{
+    font-size: 35px;
+    color: #FEF9E1;
+}
+.gallery{
+position: relative;
+width: 100%;
+margin: auto;
+text-align: center;
+}
+.gallery > .g1{
+margin: 5px;
+width: 250px;
+display: inline-block;
+}
+.gallery > .g1 > img{
+width: 250px;
+height: 250px;
+vertical-align: middle;
+border: 3px solid #6D2323;
+border-radius: 10px;
+box-shadow: -1px 1px 10px 3px #E5D0AC;
+}
+/* main ends  */
+/* about us start  */
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-us .about{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .about-image{
+    padding: 5px;
+}
+.about .about-text{
+    padding: 5px;
+}
+.about .about-text p{
+    text-align: justify;
+}
+
+a{
+    color: black;
+    font-size: 18px;
+}
+.social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links{
+    width:50px;
+    height: 50px;
+    background-color: #320909;
+    margin: 5px;
+    line-height: 50px;
+    border-radius: 50%;
+    transition: all 1s linear;
+}
+.links:hover{
+    background-color: #2f4605;
+}
+.links a{  
+    color: #ffffff;
+    font-size: 20px;
+}
+/* about us end*/
+/* index page ends  */
+
+.contact-us{
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.contact-us .title{
+    width: 250px;
+}
+#loginform{
+    background-color: white;
+    width: 50%;
+    padding: 15px;
+}
+#loginform form{
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+#loginform form .input{
+    width: 100%;
+    line-height: 2;
+}
+form label{
+    text-align: left;
+}
+label{
+    margin: 5px;
+}
+input[type="text"],input[type="email"]{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    background-color: #efe7e7;
+    outline: none;
+    border-radius: 5px;
+}
+.form_first_last{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form_first_last .first_name{
+    width: 49%;
+    line-height: 2;
+}
+.form_first_last .last_name{
+    width: 49%;
+    line-height: 2;
+}
+textarea{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    background-color: #efe7e7;
+    outline: none;
+}
+.btn{
+    width: 100%;
+}
+.btn input{
+    width: 100%;
+    padding: 20px;
+    background-color: #6D2323;
+    color: white;
+    border: none;
+}
+.create-account{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+    /* top: 55px; */
+    text-align: center;
+}
+.create-account span{
+    color: rgb(212, 206, 206);
+}
+.create-account a{
+    color: #6D2323;
+}
+/* login ends  */
+/* footer start  */
+footer{
+    padding: 15px;
+    background-color: #320909;
+}
+footer p{
+    text-align: center;
+    color: #ffffff;
+}
+span{
+    color:#D84040;
+}
+/* footer ends  */
+
+
